@@ -1,4 +1,7 @@
 * Singularity Vim color scheme
+
+This is a fork of [[https://github.com/dracula/vim]]
+
 I need to host this on a seperate repository for compatibility with plugin managers.
 
 The rest of the Singularity themes as well as information on them can be found [[https://github.com/joznia/singularity][here]].
