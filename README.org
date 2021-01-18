@@ -1,6 +1,6 @@
 * Singularity Vim color scheme
 
-This is a fork of [[https://github.com/dracula/vim]]
+This is a fork of [[https://github.com/dracula/vim][the Dracula color scheme for Vim]].
 
 I need to host this on a seperate repository for compatibility with plugin managers.
 
