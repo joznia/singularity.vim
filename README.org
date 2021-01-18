@@ -1,0 +1,4 @@
+* Singularity Vim color scheme
+I need to host this on a seperate repository for compatibility with plugin managers.
+
+The rest of the Singularity themes as well as information on them can be found [[https://github.com/joznia/singularity][here]].
