@@ -40,16 +40,16 @@ endfunc
 
 let g:airline#themes#singularity#palette = {
 \   'normal': s:color_map(
-\       ['bg', 'purple'],
+\       ['bg', 'yellow'],
 \       ['fg', 'comment'],
-\       ['fg', 'selection'],
+\       ['fg', 'bgdark'],
 \       {
 \         'airline_warning': s:clr('bg', 'orange'),
 \         'airline_error': s:clr('bg', 'red'),
 \       },
 \     ),
 \   'normal_modified': s:color_map(
-\       ['bg', 'purple'],
+\       ['bg', 'yellow'],
 \       ['fg', 'comment'],
 \       ['fg', 'bgdark'],
 \       {
@@ -58,18 +58,18 @@ let g:airline#themes#singularity#palette = {
 \       },
 \     ),
 \   'insert': s:color_map(
-\       ['bg', 'green'],
+\       ['bg', 'pink'],
 \       ['fg', 'comment'],
-\       ['fg', 'selection'],
+\       ['fg', 'bgdark'],
 \       {
 \         'airline_warning': s:clr('bg', 'orange'),
 \         'airline_error': s:clr('bg', 'red'),
 \       },
 \     ),
 \   'insert_modified': s:color_map(
-\       ['bg', 'green'],
+\       ['bg', 'pink'],
 \       ['fg', 'comment'],
-\       ['fg', 'bgdark'],
+\       ['fg', 'subtle'],
 \       {
 \         'airline_warning': s:clr('bg', 'orange'),
 \         'airline_error': s:clr('bg', 'red'),
@@ -78,7 +78,7 @@ let g:airline#themes#singularity#palette = {
 \   'replace': s:color_map(
 \       ['bg', 'orange'],
 \       ['fg', 'comment'],
-\       ['fg', 'selection'],
+\       ['fg', 'bgdark'],
 \       {
 \         'airline_warning': s:clr('bg', 'orange'),
 \         'airline_error': s:clr('bg', 'red'),
@@ -87,25 +87,25 @@ let g:airline#themes#singularity#palette = {
 \   'replace_modified': s:color_map(
 \       ['bg', 'orange'],
 \       ['fg', 'comment'],
-\       ['fg', 'bgdark'],
+\       ['fg', 'subtle'],
 \       {
 \         'airline_warning': s:clr('bg', 'orange'),
 \         'airline_error': s:clr('bg', 'red'),
 \       },
 \     ),
 \   'visual': s:color_map(
-\       ['bg', 'yellow'],
+\       ['bg', 'cyan'],
 \       ['fg', 'comment'],
-\       ['fg', 'selection'],
+\       ['fg', 'bgdark'],
 \       {
 \         'airline_warning': s:clr('bg', 'orange'),
 \         'airline_error': s:clr('bg', 'red'),
 \       },
 \     ),
 \   'visual_modified': s:color_map(
-\       ['bg', 'yellow'],
-\       ['fg', 'comment'],
+\       ['bg', 'cyan'],
 \       ['fg', 'bgdark'],
+\       ['fg', 'subtle'],
 \       {
 \         'airline_warning': s:clr('bg', 'orange'),
 \         'airline_error': s:clr('bg', 'red'),
@@ -114,7 +114,7 @@ let g:airline#themes#singularity#palette = {
 \   'inactive': s:color_map(
 \       ['bg', 'comment'],
 \       ['fg', 'bgdark'],
-\       ['fg', 'selection'],
+\       ['fg', 'bgdark'],
 \       {
 \         'airline_warning': s:clr('bg', 'orange'),
 \         'airline_error': s:clr('bg', 'red'),
@@ -123,9 +123,9 @@ let g:airline#themes#singularity#palette = {
 \   'terminal': s:color_map(
 \       ['bg', 'green'],
 \       ['fg', 'comment'],
-\       ['fg', 'selection'],
+\       ['fg', 'bgdark'],
 \       {
-\         'airline_term': s:clr('fg', 'selection'),
+\         'airline_term': s:clr('fg', 'bgdark'),
 \       },
 \     ),
 \}
@@ -149,7 +149,7 @@ endif
 " CtrlP: {{{2
 if exists('g:loaded_ctrlp')
   let g:airline#themes#singularity#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
-        \ s:clr('fg', 'selection'),
+        \ s:clr('fg', 'bgdark'),
         \ s:clr('fg', 'comment'),
         \ s:clr('fg', 'purple'),
         \)
