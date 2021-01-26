@@ -1,16 +1,6 @@
 " Singularity Theme: {{{
 "
-" https://github.com/zenorocha/singularity-theme
-"
-" Copyright 2016, All rights reserved
-"
-" Code licensed under the MIT license
-" http://zenorocha.mit-license.org
-"
-" @author Trevor Heins <@heinst>
-" @author Éverton Ribeiro <nuxlli@gmail.com>
-" @author Derek Sifford <dereksifford@gmail.com>
-" @author Zeno Rocha <hi@zenorocha.com>
+" https://github.com/joznia/singularity.vim
 scriptencoding utf8
 " }}}
 
@@ -279,7 +269,7 @@ hi! link Number Constant
 hi! link Boolean Constant
 hi! link Float Constant
 
-hi! link Identifier SingularityFg
+hi! link Identifier SingularityCyan
 hi! link Function SingularityGreen
 
 hi! link Statement SingularityPink
