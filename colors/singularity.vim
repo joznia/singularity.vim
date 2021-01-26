@@ -264,7 +264,7 @@ hi! link SpellRare SingularityInfoLine
 
 hi! link Constant SingularityPurple
 hi! link String SingularityYellow
-hi! link Character SingularityPink
+hi! link Character SingularityGreen
 hi! link Number Constant
 hi! link Boolean Constant
 hi! link Float Constant
@@ -273,7 +273,7 @@ hi! link Identifier SingularityCyan
 hi! link Function SingularityGreen
 
 hi! link Statement SingularityPink
-hi! link Conditional SingularityPink
+hi! link Conditional SingularityPurple
 hi! link Repeat SingularityPink
 hi! link Label SingularityPink
 hi! link Operator SingularityPink
@@ -291,7 +291,7 @@ hi! link Typedef SingularityPink
 
 hi! link Type SingularityCyanItalic
 
-hi! link Delimiter SingularityFg
+hi! link Delimiter SingularityCyan
 
 hi! link Special SingularityPink
 hi! link SpecialComment SingularityCyanItalic
